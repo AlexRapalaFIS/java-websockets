@@ -2,6 +2,8 @@
 
 This is a guided programming exercise, so do not hesitate to ask questions, google, look at documentation. Use your resources.
 
+* A client can be found [here](https://github.com/AlexRapalaFIS/ws-chat/tree/solid-client)
+* A deployed client that you can use can be found [here](https://ws-chat-client-sage.vercel.app)
 ## Steps
 1. Create a "Chat Room" on the server
 2. Create a "User" and add them to the Chat Room
