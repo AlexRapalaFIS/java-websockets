@@ -47,13 +47,13 @@ public class Main extends WebSocketServer {
 
     @Override
     public void onMessage(WebSocket conn, String message) {
-        broadcast(message);
-        System.out.println(conn + ": hEre " + message);
+        conn.send(message);
+        System.out.println(conn + ": " + message);
     }
 
     @Override
     public void onMessage(WebSocket conn, ByteBuffer message) {
-        broadcast(message.array());
+        conn.send(message.array());
         System.out.println(conn + ": " + message);
     }
 
